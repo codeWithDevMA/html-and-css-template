@@ -1,0 +1,67 @@
+@media (max-width: 767px) {
+  .special-heading {
+    font-size: 60px;
+  }
+  .special-heading + p {
+    margin-top: -20px;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 500px;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 570px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (max-width: 767px) {
+  .services .container .service-content .srv {
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+  }
+}
+@media (max-width: 1199px) {
+  .image-column {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .about .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .about .about-content .images img::before,
+  .about .about-content .images img::after {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  .about .about-content .images {
+    margin: 0 auto 60px;
+  }
+}
