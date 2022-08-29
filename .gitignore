@@ -1,4 +1,4 @@
 image
 webfonts
-all.min.css 
-normalise.css
+./css/all.min.css 
+./css/normalise.css
